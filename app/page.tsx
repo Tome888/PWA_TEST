@@ -28,7 +28,7 @@ export default function Home() {
 
   async function sendTest() {
     await fetch("/api/send", { method: "POST" });
-    alert("Close the app. Notification in ~5s ⏳");
+    console.log("Close the app. Notification in ~5s ⏳");
   }
 
   return (
